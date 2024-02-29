@@ -1,5 +1,5 @@
 _A = "Default string"
-import os, shutil, webbrowser, tkinter as tk
+import os, shutil, tkinter as tk
 from tkinter import filedialog, messagebox
 import random, string
 
@@ -28,10 +28,12 @@ instructions = [
     ("AMIDEEFIx64.efi /CV", generate_serial(16)),
     ("AMIDEEFIx64.efi /CS", generate_serial(16)),
     ("AMIDEEFIx64.efi /CA", generate_serial(16)),
+    ("AMIDEEFIx64.efi /PSN", ["To Be Filled By O.E.M."]),
     ("AMIDEEFIx64.efi /CSK", generate_serial(16)),
     ("AMIDEEFIx64.efi /ivn", ["Megatrends Inc."]),
     ("AMIDEEFIx64.efi /iv", ["3302"]),
     ("AMIDEEFIx64.efi /sm", ["ASUS"]),
+    ("AMIDEEFIx64.efi /PPN", ["Unknown"]),
     ("AMIDEEFIx64.efi /sp", ["System Product Name"]),
     ("AMIDEEFIx64.efi /sk", generate_serial(16)),
     ("AMIDEEFIx64.efi /sf", generate_serial(16)),
@@ -101,10 +103,6 @@ def copy_files_to_flash_drive(source_dir, dest_dir):
 
 def main():
     E = "startup.nsh"
-    webbrowser.open("https://ngrhook.club/")
-    messagebox.showinfo(
-        "NGRHook", "This generator is created specifically for NGRHook."
-    )
     B = select_flash_drive()
     if not B:
         print("No flash drive selected. Exiting...")
