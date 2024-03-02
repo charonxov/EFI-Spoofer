@@ -19,6 +19,6 @@ This is mainly for Asus users, but it will work for you too
 7. Start the system from the flash drive, then you will see a yellow EFI shell. Do not press anything, wait for the timer to finish, and let the system start.
 
    ![EFI Shell](https://i.imgur.com/yqC1OKI.png)
-8. Use any other spoofer that will change your MAC address and other easily changeable serial numbers (there are many free spoofers available, such as [This one](https://www.unknowncheats.me/forum/downloads.php?do=file&id=40652)).
+8. Use any other spoofer that will change your MAC address and other easily changeable serial numbers (there are many free spoofers available).
 9. Spoof with a paid or free spoofer and restart the system again. If you don't see the yellow console when starting the system, your serial numbers have not changed, and you may be banned. Go back to step 6 and repeat the process.
 10. Check your serial numbers using hwidChecker.bat, which is included in the folder. You can then launch the game. If you've been banned in Fortnite less than 7 days ago, use a VPN, or you may be banned again.
