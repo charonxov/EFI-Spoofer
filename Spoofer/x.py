@@ -113,10 +113,12 @@ def main():
     F = "STORAGE"
     copy_files_to_flash_drive(F, B)
     A = "echo -on\n"
+    # Disgusting
     for (G, (D, C)) in enumerate(instructions):
         H = generate_label() + str(G + 1)
         A += "\ngoto {0}\n\n:{0}\n".format(H)
         if isinstance(C, list):
+            #oh my god
             A += '{0} "{1}"\n'.format(D, random.choice(C))
         else:
             A += "{0} {1}\n".format(D, C)
