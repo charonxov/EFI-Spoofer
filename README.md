@@ -7,7 +7,7 @@ This is mainly for Asus users, but it will work for you too
 1. Download the [RAR file](https://mega.nz/folder/1SkGXSSS#0KnYyKTih2Nkhs-VeIFBUw) and extract it to your desktop.
 2. Install Python 11 from [this link](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us&gl=US).
 3. Open the folder and in the file address bar, type "cmd" to open the command prompt in this directory.
-4. Run the file by typing `python runit.py`
+4. Run the file by typing `python main.py`
 5. Choose a flash drive (it will be formatted and new files will be written to it).
 
 6. Boot your system from this flash drive (change the boot disk to the flash drive in the BIOS settings).
