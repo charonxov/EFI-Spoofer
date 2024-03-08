@@ -2,6 +2,8 @@
 
 [VIDEO](https://youtu.be/qe7wfd2YaZE)
 
+I used CRU for this: https://github.com/radamar/Custom-Resolution-Utility-ToastyX
+
 This is mainly for Asus users, but it will work for you too
 
 1. Download the [RAR file](https://mega.nz/folder/1SkGXSSS#0KnYyKTih2Nkhs-VeIFBUw) and extract it to your desktop.
